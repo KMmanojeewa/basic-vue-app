@@ -1,0 +1,32 @@
+{
+  "name": "vue-basics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vue Basics",
+  "author": "Koshala Manojeewa",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "@vue/cli": "^4.2.2",
+    "@vue/cli-service": "^4.2.2",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11",
+    "babel-loader": "~8.0"
+  }
+}
