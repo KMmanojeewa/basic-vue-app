@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <p>Test vue app</p>
+        <p>Changed Test vue app</p>
         <router-view></router-view>
     </div>
 </template>
